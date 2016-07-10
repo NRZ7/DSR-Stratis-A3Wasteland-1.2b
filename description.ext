@@ -66,6 +66,8 @@ loadScreen = "mapConfig\Loading.jpg";
 #include "addons\JTS_PM\PM_Compact.hpp"
 #include "addons\taw_vd\dialog.hpp"
 #include "addons\TOParmaInfo\dialog\TOParmaInfo_dialog.hpp"
+#include "addons\UniformPainter\dialog\UniformPainter_mainMenu.hpp"
+#include "addons\VehiclePainter\dialog\VehiclePainter_mainMenu.hpp"
 
 class RscTitles
 {
