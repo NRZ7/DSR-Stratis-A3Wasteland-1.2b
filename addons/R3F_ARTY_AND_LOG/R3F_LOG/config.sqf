@@ -7,7 +7,10 @@ R3F_LOG_CFG_remorqueurs =
 [
 	"SUV_01_base_F",
 	"Offroad_01_base_F",
+	"Offroad_02_base_F",
 	"Van_01_base_F",
+	"LSV_01_base_F",
+	"LSV_02_base_F",
 	"MRAP_01_base_F",
 	"MRAP_02_base_F",
 	"MRAP_03_base_F",
@@ -35,7 +38,8 @@ R3F_LOG_CFG_objets_remorquables =
 [
 	"Car_F",
 	"Ship_F",
-	"Plane_F",
+	"Plane",
+	"UAV_03_base_F",
 	"Heli_Light_01_base_F",
 	"Heli_Light_02_base_F",
 	"Heli_light_03_base_F",
@@ -54,6 +58,7 @@ R3F_LOG_CFG_objets_remorquablesH =
 	"Heli_Transport_02_base_F",
 	"Heli_Transport_03_base_F",
 	"Heli_Transport_04_base_F",
+	"VTOL_base_F",
 	"Plane_CAS_01_base_F",
 	"Plane_CAS_02_base_F"
 ];
@@ -73,7 +78,8 @@ R3F_LOG_CFG_heliporteurs =
 	"Heli_light_03_base_F",
 	"Heli_Attack_01_base_F",
 	"Heli_Attack_02_base_F",
-	"Heli_Transport_01_base_F"
+	"Heli_Transport_01_base_F",
+	"VTOL_base_F"
 ];
 
 /**
@@ -95,7 +101,8 @@ R3F_LOG_CFG_objets_heliportables =
 [
 	"Car_F",
 	"Ship_F",
-	"Plane_F",
+	"Plane",
+	"UAV_03_base_F",
 	"Heli_Light_01_base_F"
 ];
 
@@ -116,7 +123,9 @@ R3F_LOG_CFG_objets_heliportablesH =
 	"Heli_Transport_04_base_F",
 	"Plane_CAS_01_base_F",
 	"Plane_CAS_02_base_F",
-	"Plane_Fighter_03_base_F"
+	"Plane_Fighter_03_base_F",
+	"VTOL_01_base_F",
+	"VTOL_02_base_F"
 ];
 
 R3F_LOG_CFG_objets_heliportables append R3F_LOG_CFG_objets_heliportablesH;
@@ -136,7 +145,10 @@ R3F_LOG_CFG_transporteurs =
 	["Hatchback_01_base_F", 10],
 	["SUV_01_base_F", 20],
 	["Offroad_01_base_F", 30],
+	["Offroad_02_base_F", 20],
 	["Van_01_base_F", 40],
+	["LSV_01_base_F", 15],
+	["LSV_02_base_F", 15],
 	["MRAP_01_base_F", 20],
 	["MRAP_02_base_F", 20],
 	["MRAP_03_base_F", 20],
@@ -144,26 +156,28 @@ R3F_LOG_CFG_transporteurs =
 	["Truck_F", 75],
 	["Wheeled_APC_F", 30],
 	["Tank_F", 30],
+	["Scooter_Transport_01_base_F", 5],
 	["Rubber_duck_base_F", 10],
 	["Boat_Civil_01_base_F", 10],
+	["Boat_Transport_02_base_F", 15],
 	["Boat_Armed_01_base_F", 20],
 	["Heli_Light_01_base_F", 10],
 	["Heli_Light_02_base_F", 20],
-	["I_Heli_light_03_base_F", 20], // Hellcat (unarmed))
-	["I_Heli_light_03_F", 15], // Hellcat (armed)
-	["Heli_Transport_01_base_F", 30], // Ghosthawk?
-	["Heli_Transport_02_base_F", 40], // Mohawk
-	["Heli_Transport_03_base_F", 80], // Huron?
-	["Heli_Transport_04_base_F", 70], // Tauru?
+	["Heli_light_03_base_F", 20],
+	["Heli_Transport_01_base_F", 25],
+	["Heli_Transport_02_base_F", 30],
+	["Heli_Transport_03_base_F", 30],
+	["Heli_Transport_04_base_F", 30],
 	["Heli_Attack_01_base_F", 10],
-	["Heli_Attack_02_base_F", 20]
+	["Heli_Attack_02_base_F", 20],
+	["Plane_Civil_01_base_F", 5],
+	["VTOL_01_base_F", 50],
+	["VTOL_02_base_F", 30]
 ];
 
 
 R3F_LOG_CFG_objets_transportables =
 [
-	["Land_Device_assembled_F", 10], //Re Locker
-	["Land_GH_Stairs_F", 3], // Ghost Hotel Stairs
 	["Static_Designator_01_base_F", 2],
 	["Static_Designator_02_base_F", 2],
 	["StaticWeapon", 5],
@@ -224,8 +238,6 @@ R3F_LOG_CFG_objets_transportables =
 
 R3F_LOG_CFG_objets_deplacables =
 [
-	"Land_Device_assembled_F", //relocker
-	"Land_GH_Stairs_F", //Ghost Hotel Stairs
 	"StaticWeapon",
 	"ReammoBox_F",
 	"Kart_01_Base_F",
